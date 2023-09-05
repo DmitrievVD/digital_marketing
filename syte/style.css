@@ -1,0 +1,104 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20879');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    scroll-behavior: smooth;
+    font-family: 'Gilroy-Bold', sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    background-color: #FFFFFF;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 40px 0px ;
+    margin-bottom: 84px;
+}
+
+.nav_title {
+    color: #000;
+    font-size: 24px;
+}
+
+.navigation{
+
+}
+
+.navigation a{
+    color: #000;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 14px;
+}
+
+.color_y{
+    color: #F25822;
+}
+
+main{
+    margin-bottom: 162px;
+}
+
+.main-content{
+
+}
+
+.main-content_wraper{
+
+}
+
+.main-content_wraper h2{
+    color: #000;
+    font-size: 60px;
+    margin-bottom: 17px;
+}
+
+.main-content_wraper p{
+    color: #888;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 20px;
+    margin-bottom: 37px;
+}
+
+.main-content_btn{
+
+}
+
+.main-content_btn .main_btn{
+    color: #FFF;
+    font-size: 15px;
+    padding: 15px 35px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    cursor: pointer;
+}
+
+.main-content_btn a{
+    color: #AAA;
+    font-size: 15px;
+}
+
+footer{
+
+}
+
+.logos{
+
+}
+
