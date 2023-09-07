@@ -37,7 +37,30 @@ header{
 }
 
 .navigation{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
+.nav_logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 14px;
+}
+
+.nav_link{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    gap: 16px;
 }
 
 .navigation a{
@@ -55,7 +78,7 @@ main{
 }
 
 .main-content{
-
+    display: flex;
 }
 
 .main-content_wraper{
@@ -76,7 +99,9 @@ main{
 }
 
 .main-content_btn{
-
+    display: flex;
+    gap: 72px;
+    align-items: center;
 }
 
 .main-content_btn .main_btn{
@@ -99,6 +124,7 @@ footer{
 }
 
 .logos{
-
+    display: flex;
+    justify-content: space-between
 }
 
