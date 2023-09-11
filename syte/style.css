@@ -171,10 +171,15 @@ main{
     box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
 }
 
+.info_background{
+    background-color: #FAFAFA;;
+}
+
 .info-table{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 90px;
 }
 
 .info-table h3{
