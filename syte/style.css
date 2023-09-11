@@ -74,11 +74,11 @@ header{
 }
 
 main{
-    margin-bottom: 162px;
 }
 
 .main-content{
     display: flex;
+    margin-bottom: 162px;
 }
 
 .main-content_wraper{
@@ -112,6 +112,7 @@ main{
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
     cursor: pointer;
+    border: none;
 }
 
 .main-content_btn a{
@@ -119,12 +120,113 @@ main{
     font-size: 15px;
 }
 
-footer{
-
-}
 
 .logos{
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    margin-bottom: 100px;
 }
 
+.cards-list{
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.card{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.card img{
+    margin-bottom: 25px;
+}
+
+.card h4{
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 17px;
+}
+
+.card p{
+    color: #666;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 15px;
+    line-height: 150%;
+    margin-bottom: 25px;
+}
+
+.card a{
+    color: #000;
+    font-size: 11px;
+    line-height: 150%;
+}
+
+.card-mid{
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.info-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-table h3{
+    color: #000;
+    font-size: 45px;
+    margin-bottom: 19px;
+}
+
+.info-table p{
+    color: #666;
+    text-align: center;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 50px;
+}
+
+.card-list-info{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.card-info{
+    padding: 30px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_title{
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+
+.info_p{
+    color: #AAA;
+    text-align: center;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 15px;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+
+.info_btn{
+    color: #FFF;
+    font-size: 15px;
+    padding: 15px 35px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    cursor: pointer;
+    border: none;
+}
